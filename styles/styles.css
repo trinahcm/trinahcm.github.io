@@ -1,0 +1,308 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body, header{
+    background-color: #FBF7F4;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+p, li {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+h2 {
+    font-weight: 600;
+}
+
+h3 {
+    font-weight: 800;
+    font-size: 18px;
+}
+
+body {
+    text-align: justify;
+}
+
+table {
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 2px;
+}
+
+td {
+    font-weight: 400;
+    font-size: 16px;
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+/* link properties */
+
+a {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #64A587;
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+/* classes */
+
+.icons {
+    padding-right: 10px;
+}
+
+.subtitles {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.degree {
+    text-align: left;
+    color: #FBF7F4;
+}
+
+.school {
+    color: #FBF7F4;
+}
+
+.work {
+    font-weight: 600;
+}
+
+.date {
+    text-align: right;
+    font-weight: 600;
+}
+
+.edu-date {
+    text-align: right;
+    color: #FBF7F4;
+}
+
+.project_title {
+    text-align: center;
+}
+
+.column-p {
+    text-align: center;
+}
+
+.edu-table {
+    text-align: center;
+    table-layout: fixed;
+    width: 1000px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.tri-column {
+    margin: 15px;
+    height: 625px;
+    align-self: center;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 125px;
+    padding-left: 125px;
+    background-color: #525E5E;
+    color: #FBF7F4;
+}
+
+/* navbar */
+
+#navbar {
+    position: sticky;
+    top: 0;
+    background-color: #FBF7F4;
+}
+
+.nav_links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 30px;
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover{
+    color: #64A587;
+}
+
+/* landing page */
+
+#landing {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    padding-right: 125px;
+    padding-left: 125px;
+}
+
+#name {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+#subheading {
+    font-size: 28px;
+    padding-bottom:10px;
+}
+
+/* about me */
+
+#about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    padding-right: 125px;
+    padding-left: 125px;
+    background-color: #525E5E;
+    color: #FBF7F4;
+}
+
+#about-me {
+    width: 600px; 
+    text-align: left;
+    line-height: 2.0;
+    display: inline-block;
+    color: #FBF7F4;
+}
+
+/* experience */
+
+#experience {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    padding-right: 125px;
+    padding-left: 125px;
+}
+
+/* education */
+
+#education {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+    padding-top: 100px;
+    padding-bottom: 25px;
+    padding-right: 125px;
+    padding-left: 125px;
+    background-color: #525E5E;
+    color: #FBF7F4;
+}
+
+#cw-skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: center;
+    padding-top: 0px;
+    padding-bottom: 100px;
+    padding-right: 200px;
+    padding-left: 200px;
+    background-color: #525E5E;
+    color: #FBF7F4;
+}
+
+/* projects */
+
+#projects {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    padding-right: 125px;
+    padding-left: 125px;
+}
