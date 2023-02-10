@@ -50,7 +50,7 @@ tbody {
     border-color: inherit;
 }
 
-.button {
+#button {
     border: none;
     background-color: black;
     color: white;
@@ -62,9 +62,10 @@ tbody {
     font-weight: 500;
     margin: 4px 2px;
     cursor: pointer;
+    border-radius: 5px;
 }
 
-.button:hover {
+#button:hover {
     background-color: #64A587;
     color: white;
     text-decoration: none;
