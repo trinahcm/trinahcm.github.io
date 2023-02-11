@@ -288,8 +288,8 @@ a:active {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
-    justify-content: left;
-    align-items: left;
+    justify-content: center;
+    align-items: center;
     align-content: flex-start;
     padding-top: 100px;
     padding-bottom: 25px;
@@ -297,10 +297,6 @@ a:active {
     padding-left: 125px;
     background-color: #525E5E;
     color: #FBF7F4;
-}
-
-#ucr {
-    color: white;
 }
 
 #cw-skills {
