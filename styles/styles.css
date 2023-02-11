@@ -288,8 +288,8 @@ a:active {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: left;
     align-content: flex-start;
     padding-top: 100px;
     padding-bottom: 25px;
