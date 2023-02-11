@@ -109,11 +109,13 @@ a:active {
 }
 
 .degree {
+    font-weight: 600;
     text-align: left;
     color: #FBF7F4;
 }
 
 .school {
+    font-weight: 600;
     color: #FBF7F4;
 }
 
@@ -127,6 +129,7 @@ a:active {
 }
 
 .edu-date {
+    font-weight: 600;
     text-align: right;
     color: #FBF7F4;
 }
@@ -297,6 +300,11 @@ a:active {
     padding-left: 125px;
     background-color: #525E5E;
     color: #FBF7F4;
+}
+
+#ucr {
+    justify-content: left;
+    align-items: left;
 }
 
 #cw-skills {
