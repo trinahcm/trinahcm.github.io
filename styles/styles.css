@@ -299,6 +299,10 @@ a:active {
     color: #FBF7F4;
 }
 
+#ucr {
+    color: white;
+}
+
 #cw-skills {
     display: flex;
     flex-wrap: wrap;
