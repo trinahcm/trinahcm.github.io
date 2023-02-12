@@ -305,7 +305,13 @@ a:active {
 #ucr {
     justify-content: center;
     align-items: center;
+    text-align: center;
     color: white;
+}
+
+#sub-ucr {
+    display: inline-block;
+    text-align: left;
 }
 
 #cw-skills {
