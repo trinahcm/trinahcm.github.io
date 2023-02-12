@@ -309,11 +309,6 @@ a:active {
     color: white;
 }
 
-#sub-ucr {
-    display: inline-block;
-    text-align: left;
-}
-
 #cw-skills {
     display: flex;
     flex-wrap: wrap;
